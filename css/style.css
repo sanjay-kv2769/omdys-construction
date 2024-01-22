@@ -158,7 +158,9 @@ h2 {
 /* Background */
 .background {
   /* background: url(../images/background6.png) no-repeat 50% 100%; */
-  background: url(../images/background.jpg) no-repeat 50% 100%;
+  /* background: url(../images/background.jpg) no-repeat 50% 100%; */
+  /* background: url(../images/cargo-delivery-vehicle.jpg) no-repeat 50% 100%; */
+  background: url(../images/cargo-delivery-edited.jpg) no-repeat 50% 100%;
   /* background: url(../images/zenith_banner.png) no-repeat 50% 100%; */
   bottom: -20px;
   background-size: cover;
@@ -166,6 +168,7 @@ h2 {
   width: 110%;
   left: -5%;
   top: -5%;
+  /* opacity: 0.7; */
 }
 
 .sphere img {
@@ -352,26 +355,46 @@ h2 {
   font-size: 120px;
   color: rgb(180, 31, 31);
   text-shadow: 1px 0px 1px #161515, 0px 1px 1px #100, 2px 1px 1px #7c4c4c,
-    1px 2px 1px #100, 3px 2px 1px #7c4c4c, 2px 3px 1px #100, 4px 3px 1px #7c4c4c,
-    3px 4px 1px #100, 5px 4px 1px #7c4c4c, 4px 5px 1px #100, 6px 5px 1px #7c4c4c,
+    1px 2px 1px #100, 3px 2px 1px #7c4c4c, 2px 3px 1px #100, 1px 1px 1px #7c4c4c,
+    3px 4px 1px #100, 5px 4px 1px #7c4c4c, 1px 1px 1px #100, 1px 1px 1px #7c4c4c,
     5px 6px 1px #100, 7px 6px 1px #7c4c4c;
   /* text-shadow: 3px 0px 7px rgba(224, 234, 225, 0.8), 
 	  -3px 0px 7px rgba(65, 70, 68, 0.8), 
 	  0px 4px 7px rgba(8, 181, 14, 0.8); */
 }
 .herocoming .soon {
-  color: rgb(19, 19, 19);
+  color: rgb(14, 241, 135);
 }
 .logo {
   margin-top: 15px;
   width: 400px;
-  height: 100px;
+  height: 95px;
 }
 .layer {
   margin-top: 25px;
 }
 .herocoming .soon {
   padding-top: 30px;
+  /* color: rgb(224, 236, 5); */
+  color: rgb(213, 105, 168);
+  text-shadow: 1px 0px 1px #100, 0px 1px 1px #100, 2px 1px 1px #100,
+    1px 2px 1px #100, 3px 2px 1px #100, 2px 3px 1px #100, 1px 1px 1px #100,
+    3px 4px 1px #100, 5px 4px 1px #100, 1px 1px 1px #100, 1px 1px 1px #100,
+    5px 6px 1px #100, 7px 6px 1px #100;
+}
+.hero .soon {
+  /* color: rgb(231, 15, 141); */
+  color: rgb(32, 154, 79);
+
+  font-size: 50px;
+  /* text-shadow: 1px 0px 1px #161515, 0px 1px 1px #100, 2px 1px 1px #7c4c4c,
+    1px 2px 1px #100, 3px 2px 1px #7c4c4c, 2px 3px 1px #100, 1px 1px 1px #7c4c4c,
+    3px 4px 1px #100, 5px 4px 1px #7c4c4c, 1px 1px 1px #100, 1px 1px 1px #7c4c4c,
+    5px 6px 1px #100, 7px 6px 1px #7c4c4c; */
+  text-shadow: 1px 0px 1px #161515, 0px 1px 1px #100, 2px 1px 1px #161515,
+    1px 2px 1px #100, 3px 2px 1px #161515, 2px 3px 1px #100, 1px 1px 1px #161515,
+    3px 4px 1px #100, 5px 4px 1px #161515, 1px 1px 1px #100, 1px 1px 1px #161515,
+    5px 6px 1px #100, 7px 6px 1px #161515;
 }
 /* =Responsive Styles
 -------------------------------------------------------------- */
@@ -395,6 +418,7 @@ h2 {
   }
   .herocoming .soon {
     padding-top: 30px;
+
     /* color: #00d9ec; */
   }
   .logo {
@@ -509,8 +533,8 @@ h2 {
   }
   .logo {
     margin-top: 15px;
-    width: 150px;
-    height: 70px;
+    width: 200px;
+    height: 80px;
   }
   .herocoming {
     /* font-size: 80px; */
@@ -896,14 +920,19 @@ h2 {
   }
   .logo {
     margin-top: 15px;
-    width: 300px;
-    height: 100px;
+    width: 400px;
+    height: 110px;
   }
   .herocoming .soon {
     padding-top: 30px;
   }
 
-  .soon {
+  .hero .soon {
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  .herocoming .soon {
     font-size: 50px;
     font-weight: 500;
   }
@@ -1324,6 +1353,7 @@ h2 {
   width: 100%;
   height: 100%;
   background: url(../images/404-background.jpg) no-repeat center;
+  /* background: url(../images/404-background.jpg) no-repeat center; */
   background-size: cover;
   text-align: center;
 }
