@@ -472,7 +472,6 @@ h2 {
   }
   .omdys {
     font-size: 30px;
-    margin-top: 15px;
   }
   .herocoming {
     /* font-size: 80px; */
@@ -493,8 +492,8 @@ h2 {
     font-size: 24px;
     line-height: 34px;
   }
-  .layer .omdys {
-    margin-top: 15px;
+  .omdys {
+    margin-top: 20px;
     font-size: 40px;
   }
   .herocoming {
