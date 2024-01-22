@@ -361,6 +361,8 @@ h2 {
 }
 .soon {
   color: rgb(7, 5, 5);
+  margin-top: 25px;
+
   /* font-weight: 400; */
 }
 .logo {
@@ -391,11 +393,19 @@ h2 {
     font-size: 30px;
     /* color: #00d9ec; */
   }
+  .logo {
+    margin-top: 15px;
+    width: 150px;
+    height: 70px;
+  }
   .herocoming {
     /* font-size: 80px; */
   }
   .soon {
     font-size: 30px;
+    /* color: #00d9ec; */
+    font-weight: 300;
+    margin-top: 25px;
   }
   .sub-title {
     font-size: ;
@@ -494,6 +504,11 @@ h2 {
 
     font-size: 35px;
   }
+  .logo {
+    margin-top: 15px;
+    width: 150px;
+    height: 70px;
+  }
   .herocoming {
     /* font-size: 80px; */
   }
@@ -519,6 +534,11 @@ h2 {
     margin-right: 5px;
     margin-left: 5px;
     /* color: #00d9ec; */
+  }
+  .logo {
+    margin-top: 15px;
+    width: 180px;
+    height: 80px;
   }
   .herocoming {
     /* font-size: 80px; */
@@ -620,6 +640,11 @@ h2 {
     margin-right: 5px;
     margin-left: 5px;
     /* color: #00d9ec; */
+  }
+  .logo {
+    margin-top: 15px;
+    width: 250px;
+    height: 100px;
   }
   .herocoming {
     /* font-size: 80px; */
@@ -733,6 +758,11 @@ h2 {
     margin-top: 35px;
     margin-right: 5px;
     margin-left: 5px;
+  }
+  .logo {
+    margin-top: 15px;
+    width: 280px;
+    height: 120px;
   }
   .herocoming {
     /* font-size: 80px; */
@@ -850,6 +880,11 @@ h2 {
     margin-right: 5px;
     margin-left: 5px;
     /* color: #00d9ec; */
+  }
+  .logo {
+    margin-top: 15px;
+    width: 300px;
+    height: 100px;
   }
   .herocoming {
     /* font-size: 80px; */
