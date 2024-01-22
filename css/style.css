@@ -128,7 +128,8 @@ h2 {
   height: 100%;
   width: 100%;
   padding: 0;
-  margin: 0;
+  /* margin: 0; */
+  /* margin-top: 10px; */
 }
 
 .scene {
@@ -471,6 +472,7 @@ h2 {
   }
   .omdys {
     font-size: 30px;
+    margin-top: 15px;
   }
   .herocoming {
     /* font-size: 80px; */
@@ -491,7 +493,8 @@ h2 {
     font-size: 24px;
     line-height: 34px;
   }
-  .omdys {
+  .layer .omdys {
+    margin-top: 15px;
     font-size: 40px;
   }
   .herocoming {
