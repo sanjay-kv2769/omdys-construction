@@ -363,6 +363,8 @@ h2 {
 	  0px 4px 7px rgba(8, 181, 14, 0.8); */
 }
 .herocoming .soon {
+  /* color: rgb(14, 241, 135); */
+  /* color: rgb(19, 167, 98); */
   color: rgb(14, 241, 135);
 }
 .logo {
@@ -375,16 +377,20 @@ h2 {
 }
 .herocoming .soon {
   padding-top: 30px;
-  /* color: rgb(224, 236, 5); */
-  color: rgb(213, 105, 168);
+  /* color: rgb(213, 105, 168); */
+  color: #e0ddca;
+  /* color: #d66335; */
+  /* color: #f4f1c9; */
   text-shadow: 1px 0px 1px #100, 0px 1px 1px #100, 2px 1px 1px #100,
-    1px 2px 1px #100, 3px 2px 1px #100, 2px 3px 1px #100, 1px 1px 1px #100,
-    3px 4px 1px #100, 5px 4px 1px #100, 1px 1px 1px #100, 1px 1px 1px #100,
-    5px 6px 1px #100, 7px 6px 1px #100;
+    1px 2px 1px rgb(115, 100, 100), 3px 2px 1px #100, 2px 3px 1px #100,
+    1px 1px 1px #100, 3px 4px 1px rgb(108, 104, 104), 5px 4px 1px #100,
+    1px 1px 1px rgb(102, 98, 98), 1px 1px 1px #100,
+    5px 6px 1px rgb(211, 211, 211), 7px 6px 1px rgb(136, 132, 132);
 }
 .hero .soon {
-  /* color: rgb(231, 15, 141); */
-  color: rgb(32, 154, 79);
+  /* color: #e3dcf2; */
+  color: #f6f8e2;
+  /* color: rgb(32, 154, 79); */
 
   font-size: 50px;
   /* text-shadow: 1px 0px 1px #161515, 0px 1px 1px #100, 2px 1px 1px #7c4c4c,
@@ -418,6 +424,7 @@ h2 {
   }
   .herocoming .soon {
     padding-top: 30px;
+    /* font-weight: 600; */
 
     /* color: #00d9ec; */
   }
@@ -426,7 +433,9 @@ h2 {
     width: 150px;
     height: 70px;
   }
-  .herocoming {
+  .herocoming .soon {
+    font-weight: 600;
+
     /* font-size: 80px; */
   }
   .soon {
@@ -684,6 +693,7 @@ h2 {
   }
   .herocoming .soon {
     padding-top: 30px;
+    font-weight: 600;
   }
   .soon {
     font-size: 40px;
@@ -928,13 +938,13 @@ h2 {
   }
 
   .hero .soon {
-    font-size: 50px;
+    font-size: 65px;
     font-weight: 500;
   }
 
   .herocoming .soon {
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 55px;
+    font-weight: 600;
   }
   #countdown div span {
     font-size: 44px;
