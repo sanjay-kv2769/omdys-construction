@@ -382,10 +382,10 @@ h2 {
   /* color: #d66335; */
   /* color: #f4f1c9; */
   text-shadow: 1px 0px 1px #100, 0px 1px 1px #100, 2px 1px 1px #100,
-    1px 2px 1px rgb(115, 100, 100), 3px 2px 1px #100, 2px 3px 1px #100,
-    1px 1px 1px #100, 3px 4px 1px rgb(108, 104, 104), 5px 4px 1px #100,
-    1px 1px 1px rgb(102, 98, 98), 1px 1px 1px #100,
-    5px 6px 1px rgb(211, 211, 211), 7px 6px 1px rgb(136, 132, 132);
+    1px 2px 1px rgb(11, 10, 10), 3px 2px 1px #100, 2px 3px 1px #100,
+    1px 1px 1px #100, 3px 4px 1px rgb(16, 15, 15), 5px 4px 1px #100,
+    1px 1px 1px rgb(21, 19, 19), 1px 1px 1px #100;
+  /* 5px 6px 1px rgb(211, 211, 211), 7px 6px 1px rgb(136, 132, 132); */
 }
 .hero .soon {
   /* color: #e3dcf2; */
@@ -424,8 +424,7 @@ h2 {
   }
   .herocoming .soon {
     padding-top: 30px;
-    /* font-weight: 600; */
-
+    font-weight: 400;
     /* color: #00d9ec; */
   }
   .logo {
@@ -434,8 +433,7 @@ h2 {
     height: 70px;
   }
   .herocoming .soon {
-    font-weight: 600;
-
+    font-weight: 400;
     /* font-size: 80px; */
   }
   .soon {
@@ -543,15 +541,18 @@ h2 {
   .logo {
     margin-top: 15px;
     width: 200px;
-    height: 80px;
+    height: 60px;
   }
   .herocoming {
     /* font-size: 80px; */
   }
   .herocoming .soon {
     padding-top: 30px;
-    font-weight: normal;
+    font-weight: 400;
     /* color: #00d9ec; */
+  }
+  .hero .soon {
+    font-weight: 400;
   }
   .soon {
     font-size: 28px;
@@ -586,6 +587,7 @@ h2 {
   }
   .herocoming .soon {
     padding-top: 35px;
+
     /* color: #00d9ec; */
   }
   .soon {
