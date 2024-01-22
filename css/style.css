@@ -125,6 +125,8 @@ h2 {
 .scene,
 .layer {
   display: block;
+  /* display: flex; */
+  /* justify-content: center; */
   height: 100%;
   width: 100%;
   padding: 0;
@@ -345,6 +347,8 @@ h2 {
   top: 0;
 }
 .omdys {
+  display: flex;
+  justify-content: center;
   font-size: 120px;
   color: rgb(180, 31, 31);
   text-shadow: 1px 0px 1px #161515, 0px 1px 1px #100, 2px 1px 1px #7c4c4c,
@@ -358,6 +362,14 @@ h2 {
 .soon {
   color: rgb(7, 5, 5);
   /* font-weight: 400; */
+}
+.logo {
+  margin-top: 15px;
+  width: 400px;
+  height: 100px;
+}
+.layer {
+  margin-top: 25px;
 }
 /* =Responsive Styles
 -------------------------------------------------------------- */
@@ -837,6 +849,7 @@ h2 {
     margin-top: 35px;
     margin-right: 5px;
     margin-left: 5px;
+    /* color: #00d9ec; */
   }
   .herocoming {
     /* font-size: 80px; */
@@ -969,11 +982,12 @@ h2 {
     font-size: 10px;
     line-height: 160px;
   }
-  .omdys {
-    font-size: 65px;
+  .layer .omdys {
+    font-size: 55px;
     margin-top: 35px;
     margin-right: 5px;
     margin-left: 5px;
+    /* color: #00d9ec; */
   }
   .herocoming {
     /* font-size: 80px; */
@@ -1103,6 +1117,7 @@ h2 {
     margin-right: 5px;
     margin-left: 5px;
   }
+
   .herocoming {
     /* font-size: 80px; */
   }
