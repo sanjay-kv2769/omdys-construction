@@ -346,10 +346,10 @@ h2 {
 .omdys {
   font-size: 120px;
   color: rgb(180, 31, 31);
-  text-shadow: 1px 0px 1px #7c4c4c, 0px 1px 1px #eee, 2px 1px 1px #7c4c4c,
-    1px 2px 1px #eee, 3px 2px 1px #7c4c4c, 2px 3px 1px #eee, 4px 3px 1px #7c4c4c,
-    3px 4px 1px #eee, 5px 4px 1px #7c4c4c, 4px 5px 1px #eee, 6px 5px 1px #7c4c4c,
-    5px 6px 1px #eee, 7px 6px 1px #7c4c4c;
+  text-shadow: 1px 0px 1px #161515, 0px 1px 1px #100, 2px 1px 1px #7c4c4c,
+    1px 2px 1px #100, 3px 2px 1px #7c4c4c, 2px 3px 1px #100, 4px 3px 1px #7c4c4c,
+    3px 4px 1px #100, 5px 4px 1px #7c4c4c, 4px 5px 1px #100, 6px 5px 1px #7c4c4c,
+    5px 6px 1px #100, 7px 6px 1px #7c4c4c;
   /* text-shadow: 3px 0px 7px rgba(224, 234, 225, 0.8), 
 	  -3px 0px 7px rgba(65, 70, 68, 0.8), 
 	  0px 4px 7px rgba(8, 181, 14, 0.8); */
